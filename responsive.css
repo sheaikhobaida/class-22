@@ -1,0 +1,39 @@
+@media (max-width: 991px){
+	.TinyOne-features-text{
+		padding: 30px 0;
+	}
+	
+
+}
+
+@media (max-width: 767px){
+	.TinyOne-menu{
+		text-align: center;
+	}
+	.TinyOne-logo{
+		margin: 10px 0;
+	}
+	.TinyOne-social-connect ul{
+		justify-content: center;
+	}
+	.TinyOne-subscribe-mail{
+		flex-flow: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.TinyOne-subscribe-mail input[type="email"]{
+		margin-bottom: 10px;
+	}
+	.TinyOne-subscribe-mail input[type="submit"]{
+		
+		
+	}
+	
+
+}
+
+@media (max-width: 575px){
+	
+	
+}

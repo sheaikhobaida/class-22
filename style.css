@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+
+}
+a{
+	text-decoration: none;
+}
+
+
+			/*Common CSS End*/
+
+.TinyOne-header{
+	background: #fcdb00;
+	padding-top: 60px;
+}
+
+.TinyOne-menu{}
+.TinyOne-menu a{
+	color: #000000;
+	font-size: 22px;
+}
+.TinyOne-logo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+/*.TinyOne-fingerprint{} 		Right???
+.TinyOne-fingerprint-overlay{
+
+}
+
+.TinyOne-brandname{}
+.TinyOne-brandname h4{
+	font-size: 30px;
+	color: #010101;
+	font-weight: 700px;
+}*/
+
+.TinyOne-social-connect{
+	align-items: center;
+}
+.TinyOne-social-connect ul{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	
+}
+.TinyOne-social-connect ul li{
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background: #1b0101;
+	margin: 0 10px;
+	border-radius: 3px;
+
+}
+.TinyOne-social-connect ul li a{
+	color: #fcdb00 ;  /*Right*/
+	
+}
+
+.TinyOne-social-connect ul li:last-child{
+	margin-right:0;
+}
+
+			/*Header End*/
+
+.TinyOne-slider{
+	background:#fcdb00;
+	padding: 50px 0;
+	
+}
+.carousel-indicators{}
+.carousel-indicators button{
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50%;
+
+}
+
+
+.TinyOne-content{
+	padding:150px 0;
+}
+.TinyOne-content-text{
+	text-align: center;
+}
+.TinyOne-content-text h1{
+	font-size: 48px;
+	font-weight:bold;
+	color: #010101;
+	padding-bottom: 25px;
+}
+.TinyOne-content-text p{
+	font-size: 20px;
+	color: #313841;
+	padding: 0 33px 30px;
+
+}
+
+.TinyOne-content-icon{}
+.TinyOne-content-icon ul{
+	display: flex;
+	justify-content: center;
+
+	
+}
+.TinyOne-content-icon ul li{
+	width: 70px;
+	height: 70px;
+	border: 2px solid #1a0000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin: 0 18px;
+
+}
+.TinyOne-content-icon ul li a{
+	font-size: 32px;
+	color: #1a0000;
+
+}
+
+			/*TinyOne-slider End*/
+
+
+
+.TinyOne-features{
+	background: #ffffff;
+	padding:118px 0 95px ;
+}
+.TinyOne-features-header{}
+.TinyOne-features-header-text{
+	text-align: center;
+	
+}
+.TinyOne-features-header-text h4{
+	font-size: 32px;
+	font-weight: bold;
+	color: #010101;
+	
+	
+	
+}
+.TinyOne-features-header-text p{
+	font-size: 20px;
+	color: #313841;
+	padding: 0 30px;
+	margin: 20px 0 65px;
+	
+
+}
+
+.TinyOne-features-grid{}
+.TinyOne-features-left{}
+
+.TinyOne-features-text{
+	padding: 50px 30px;
+	
+	
+}
+.TinyOne-features-text h5{
+	font-size: 22px;
+	color: #010101;
+	
+}
+.TinyOne-features-text p{
+	font-size: 16px;
+	color: #898989;
+	
+}
+
+.TinyOne-features-iPad{
+	position: relative;
+}
+.TinyOne-features-iPad img{
+		width: 100%;
+}
+.TinyOne-features-iPad a{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+}
+
+
+
+.TinyOne-features-right{}
+
+
+		/*TinyOne-features End*/
+
+
+.TinyOne-footer{
+	background: #010101;
+	padding: 97px 0 210px;
+}
+.TinyOne-subscribe{
+	margin-bottom: 114px;
+}
+.TinyOne-subscribe-text{
+	text-align: center;
+}
+.TinyOne-subscribe-text h4{
+	font-size: 32px;
+	color: #fcdb00;
+	font-weight: bold;
+}
+.TinyOne-subscribe-text p{
+	
+	font-size: 20px;
+	color: #898989;
+	/*padding: 18px 60px 40px;*/
+}
+
+.TinyOne-subscribe-mail{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	
+
+}
+.TinyOne-subscribe-mail input[type="email"]{
+	width: 77%;
+	background: #ffffff;
+	border-radius: 5px;
+	border: 2px solid #ffffff;
+	padding: 15px 0;
+}
+
+input::placeholder{
+	font-size: 16px;
+	color: #898989;
+	padding: 0 10px;
+}
+
+.TinyOne-subscribe-mail input[type="submit"]{
+	font-size: 16px;
+	color: #010101;
+	font-weight: bold;
+	padding: 15px 35px;
+	border-radius: 5px;
+	background: #fbdb00;
+	border: 1px solid #fbdb00;
+}
+
+.footer-widgets{
+	padding: 0 50px;
+}
+
+.footer-widgets-text{
+	
+	
+}
+.footer-widgets-text p{
+	font-size: 16px;
+	color: #fff;
+}
